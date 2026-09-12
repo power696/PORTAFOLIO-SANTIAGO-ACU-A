@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Iván Santiago Acuña</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="presentacion">
+            <p class="pequeno">MI PORTAFOLIO DIGITAL</p>
+            <h1>Iván Santiago Acuña</h1>
+            <p>Estudiante de grado 11° | Proyecto personal y académico</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#formacion">Formación</a>
+        <a href="#habilidades">Mis gustos</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#futuro">Mi futuro</a>
+    </nav>
+
+    <main>
+
+        <section id="sobre-mi" class="bloque">
+            <span class="numero">01</span>
+            <h2>Sobre mí</h2>
+
+            <p>
+                Mi nombre es <strong>Iván Santiago Acuña</strong>, tengo 16 años,
+                actualmente estoy cursando el grado 11°. Nací en la ciudad de
+                Florencia y vivo en Cartagena del Chairá.
+            </p>
+
+            <p>
+                Me considero una persona con entusiasmo y con muchas ganas de
+                aprender cosas nuevas. Quiero seguir preparándome para en un
+                futuro poder tener un buen trabajo y alcanzar mis metas.
+                También me considero disciplinado y me gustaría ingresar a una
+                universidad y estudiar una carrera que realmente me llame la
+                atención.
+            </p>
+        </section>
+
+
+        <section id="formacion" class="bloque destacado">
+            <span class="numero">02</span>
+            <h2>Formación académica</h2>
+
+            <p>
+                Actualmente estudio en la <strong>Institución Educativa El Chairá
+                José María Córdoba</strong> y estoy culminando una etapa muy
+                importante de mi vida: el grado 11°.
+            </p>
+
+            <p>
+                Espero poder graduarme junto con mis compañeros y continuar mis
+                estudios después del colegio. Una de las materias que más me
+                gusta es <strong>Educación Física</strong>, porque me permite
+                realizar diferentes actividades y practicar deportes.
+            </p>
+        </section>
+
+
+        <section id="habilidades" class="bloque">
+            <span class="numero">03</span>
+            <h2>Mis habilidades y gustos</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+                    <h3>🏐 Voleibol</h3>
+                    <p>
+                        Me gusta jugar voleibol y he tenido la oportunidad de
+                        participar en varios campeonatos.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>📺 Series</h3>
+                    <p>
+                        En mi tiempo libre me gusta mirar series y disfrutar de
+                        diferentes historias.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>👥 Amigos</h3>
+                    <p>
+                        Me gusta salir, compartir y pasar buenos momentos con
+                        mis amigos.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>✈️ Familia</h3>
+                    <p>
+                        Disfruto viajar con mi familia y conocer nuevos lugares
+                        junto a ellos.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="proyectos" class="bloque destacado">
+            <span class="numero">04</span>
+            <h2>Proyectos destacados</h2>
+
+            <p>
+                Durante mi etapa escolar he participado en diferentes
+                actividades y proyectos realizados en el colegio. Entre ellos
+                se encuentran trabajos relacionados con las áreas de
+                <strong>Física y Química</strong>, especialmente durante el
+                Día de la Ciencia.
+            </p>
+
+            <p>
+                También he aprendido diferentes herramientas digitales en el
+                área de informática. He trabajado con herramientas como
+                <strong>Google Docs, Google Sheets, Google Forms, Google
+                Slides, HTML y CSS</strong>.
+            </p>
+
+            <p>
+                Estos aprendizajes me han permitido conocer un poco más sobre
+                la tecnología y desarrollar nuevas habilidades. Quiero seguir
+                aprendiendo y practicando para mejorar cada vez más.
+            </p>
+        </section>
+
+
+        <section id="futuro" class="bloque futuro">
+            <span class="numero">05</span>
+            <h2>Mi futuro</h2>
+
+            <p>
+                Uno de mis principales objetivos es terminar el grado 11° y
+                poder graduarme junto a mis compañeros. Después quiero ingresar
+                a una universidad y encontrar una carrera que me guste y que
+                pueda aportar a mi futuro.
+            </p>
+
+            <p>
+                Sé que todavía tengo muchas cosas por aprender, pero quiero
+                seguir preparándome, ser disciplinado y aprovechar las
+                oportunidades que se presenten para cumplir mis metas.
+            </p>
+        </section>
+
+
+        <section class="frase">
+            <h2>“Cada etapa es una oportunidad para aprender y seguir adelante.”</h2>
+            <p>Portafolio digital de Iván Santiago Acuña · Grado 11°</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Iván Santiago Acuña | Portafolio Digital</p>
+    </footer>
+
+</body>
+</html>
