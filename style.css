@@ -1,170 +1,136 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Iván Santiago Acuña</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<body>
+html {
+    scroll-behavior: smooth;
+}
 
-    <header>
-        <div class="presentacion">
-            <p class="pequeno">MI PORTAFOLIO DIGITAL</p>
-            <h1>Iván Santiago Acuña</h1>
-            <p>Estudiante de grado 11° | Proyecto personal y académico</p>
-        </div>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #333;
+    line-height: 1.7;
+}
 
-    <nav>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#formacion">Formación</a>
-        <a href="#habilidades">Mis gustos</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#futuro">Mi futuro</a>
-    </nav>
+header {
+    background: linear-gradient(135deg, #173f5f, #20639b);
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
 
-    <main>
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
 
-        <section id="sobre-mi" class="bloque">
-            <span class="numero">01</span>
-            <h2>Sobre mí</h2>
+header p {
+    font-size: 25px;
+    font-weight: bold;
+}
 
-            <p>
-                Mi nombre es <strong>Iván Santiago Acuña</strong>, tengo 16 años,
-                actualmente estoy cursando el grado 11°. Nací en la ciudad de
-                Florencia y vivo en Cartagena del Chairá.
-            </p>
+header span {
+    font-size: 17px;
+    opacity: 0.9;
+}
 
-            <p>
-                Me considero una persona con entusiasmo y con muchas ganas de
-                aprender cosas nuevas. Quiero seguir preparándome para en un
-                futuro poder tener un buen trabajo y alcanzar mis metas.
-                También me considero disciplinado y me gustaría ingresar a una
-                universidad y estudiar una carrera que realmente me llame la
-                atención.
-            </p>
-        </section>
+nav {
+    background: white;
+    padding: 18px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 
+nav a {
+    text-decoration: none;
+    color: #173f5f;
+    font-weight: bold;
+    margin: 0 15px;
+}
 
-        <section id="formacion" class="bloque destacado">
-            <span class="numero">02</span>
-            <h2>Formación académica</h2>
+nav a:hover {
+    color: #20639b;
+}
 
-            <p>
-                Actualmente estudio en la <strong>Institución Educativa El Chairá
-                José María Córdoba</strong> y estoy culminando una etapa muy
-                importante de mi vida: el grado 11°.
-            </p>
+main {
+    width: 90%;
+    max-width: 950px;
+    margin: 40px auto;
+}
 
-            <p>
-                Espero poder graduarme junto con mis compañeros y continuar mis
-                estudios después del colegio. Una de las materias que más me
-                gusta es <strong>Educación Física</strong>, porque me permite
-                realizar diferentes actividades y practicar deportes.
-            </p>
-        </section>
+.tarjeta {
+    background: white;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.08);
+    border-left: 6px solid #20639b;
+}
 
+.tarjeta h2 {
+    color: #173f5f;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
 
-        <section id="habilidades" class="bloque">
-            <span class="numero">03</span>
-            <h2>Mis habilidades y gustos</h2>
+.tarjeta p {
+    margin-bottom: 15px;
+}
 
-            <div class="tarjetas">
+.lista {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
 
-                <div class="tarjeta">
-                    <h3>🏐 Voleibol</h3>
-                    <p>
-                        Me gusta jugar voleibol y he tenido la oportunidad de
-                        participar en varios campeonatos.
-                    </p>
-                </div>
+.lista div {
+    background: #eef5fb;
+    padding: 18px;
+    border-radius: 12px;
+}
 
-                <div class="tarjeta">
-                    <h3>📺 Series</h3>
-                    <p>
-                        En mi tiempo libre me gusta mirar series y disfrutar de
-                        diferentes historias.
-                    </p>
-                </div>
+.futuro {
+    border-left-color: #f2b134;
+}
 
-                <div class="tarjeta">
-                    <h3>👥 Amigos</h3>
-                    <p>
-                        Me gusta salir, compartir y pasar buenos momentos con
-                        mis amigos.
-                    </p>
-                </div>
+.futuro h2 {
+    color: #b47b00;
+}
 
-                <div class="tarjeta">
-                    <h3>✈️ Familia</h3>
-                    <p>
-                        Disfruto viajar con mi familia y conocer nuevos lugares
-                        junto a ellos.
-                    </p>
-                </div>
+footer {
+    background: #173f5f;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    margin-top: 50px;
+}
 
-            </div>
-        </section>
+footer p {
+    margin: 5px;
+}
 
+@media (max-width: 700px) {
 
-        <section id="proyectos" class="bloque destacado">
-            <span class="numero">04</span>
-            <h2>Proyectos destacados</h2>
+    header h1 {
+        font-size: 32px;
+    }
 
-            <p>
-                Durante mi etapa escolar he participado en diferentes
-                actividades y proyectos realizados en el colegio. Entre ellos
-                se encuentran trabajos relacionados con las áreas de
-                <strong>Física y Química</strong>, especialmente durante el
-                Día de la Ciencia.
-            </p>
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
 
-            <p>
-                También he aprendido diferentes herramientas digitales en el
-                área de informática. He trabajado con herramientas como
-                <strong>Google Docs, Google Sheets, Google Forms, Google
-                Slides, HTML y CSS</strong>.
-            </p>
+    .lista {
+        grid-template-columns: 1fr;
+    }
 
-            <p>
-                Estos aprendizajes me han permitido conocer un poco más sobre
-                la tecnología y desarrollar nuevas habilidades. Quiero seguir
-                aprendiendo y practicando para mejorar cada vez más.
-            </p>
-        </section>
-
-
-        <section id="futuro" class="bloque futuro">
-            <span class="numero">05</span>
-            <h2>Mi futuro</h2>
-
-            <p>
-                Uno de mis principales objetivos es terminar el grado 11° y
-                poder graduarme junto a mis compañeros. Después quiero ingresar
-                a una universidad y encontrar una carrera que me guste y que
-                pueda aportar a mi futuro.
-            </p>
-
-            <p>
-                Sé que todavía tengo muchas cosas por aprender, pero quiero
-                seguir preparándome, ser disciplinado y aprovechar las
-                oportunidades que se presenten para cumplir mis metas.
-            </p>
-        </section>
-
-
-        <section class="frase">
-            <h2>“Cada etapa es una oportunidad para aprender y seguir adelante.”</h2>
-            <p>Portafolio digital de Iván Santiago Acuña · Grado 11°</p>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>© 2026 Iván Santiago Acuña | Portafolio Digital</p>
-    </footer>
-
-</body>
-</html>
+    .tarjeta {
+        padding: 25px;
+    }
+}
